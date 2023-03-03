@@ -1,0 +1,62 @@
+[
+    {
+        "user": "a",
+        "est_id": 1,
+        "square_meters": 150,
+        "city": "Milano",
+        "num_bedrooms": 3,
+        "budget": "low",
+        "estimation_range": [
+            60720,
+            67920
+        ]
+    },
+    {
+        "user": "b",
+        "est_id": 1,
+        "square_meters": 120,
+        "city": "Milano",
+        "num_bedrooms": 5,
+        "budget": "low",
+        "estimation_range": [
+            58291,
+            65203
+        ]
+    },
+    {
+        "user": "b",
+        "est_id": 2,
+        "square_meters": 888,
+        "city": "Milano",
+        "num_bedrooms": 8,
+        "budget": "low",
+        "estimation_range": [
+            431354,
+            482503
+        ]
+    },
+    {
+        "user": "a",
+        "est_id": 2,
+        "square_meters": 666,
+        "city": "Torino",
+        "num_bedrooms": 6,
+        "budget": "high",
+        "estimation_range": [
+            427731,
+            485274
+        ]
+    },
+    {
+        "user": "a",
+        "est_id": 3,
+        "square_meters": "444",
+        "city": "Napoli",
+        "num_bedrooms": "4",
+        "budget": "low",
+        "estimation_range": [
+            174758,
+            200332
+        ]
+    }
+]

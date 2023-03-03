@@ -1,0 +1,21 @@
+[
+    
+    {
+        "email": "andrea.boscolo@studio.unibo.it",
+        "password": [
+            "673f924c61e83124844d2d8e5a28f4a5acc791de9d8de99adaf42d682e6364a7",
+            "d4e6c094"
+        ],
+        "name": "andrea",
+        "surname": "boscolo"
+    },
+    {
+        "email": "roberto.curcio2@studio.unibo.it",
+        "password": [
+            "8924766220bb4dac71caaa690446f52163f94553d97283ac566f25abbe5ad42a",
+            "4fcee995"
+        ],
+        "name": "Roberto",
+        "surname": "Curcio"
+    }
+]
