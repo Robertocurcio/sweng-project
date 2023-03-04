@@ -25,6 +25,7 @@ function getUserData(userId, data) {
 // This function takes an estimation datum object as input, and returns a div element containing the estimation data
 function createEstimationDiv(datum) {
   const div = document.createElement('div');
+  
   const h2 = document.createElement('h2');
   const squareMetersP = document.createElement('p');
   const numBedroomsP = document.createElement('p');
@@ -32,12 +33,14 @@ function createEstimationDiv(datum) {
   const budgetP = document.createElement('p');
   const estRangeP = document.createElement('p');
 
-  h2.textContent = `Estimation number: ${datum.est_id}`;
+  div.setAttribute('id', 'past-est');
+
+  h2.textContent = `Estimation n. ${datum.est_id}`;
   squareMetersP.textContent = `Square meters: ${datum.square_meters}`;
   numBedroomsP.textContent = `Number of bedrooms: ${datum.num_bedrooms}`;
   cityP.textContent = `City: ${datum.city}`;
   budgetP.textContent = `Budget: ${datum.budget}`;
-  estRangeP.textContent = `Estimation range: \u20AC${datum.estimation_range[0]} - \u20AC${datum.estimation_range[1]}`;
+  estRangeP.textContent = `Estimation range: \u20AC ${datum.estimation_range[0]} - \u20AC ${datum.estimation_range[1]}`;
 
   div.appendChild(h2);
   div.appendChild(squareMetersP);
