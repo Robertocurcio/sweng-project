@@ -50,6 +50,8 @@ body {
     width: 100%;
     box-sizing: border-box;
     background: inherit;
+    color: inherit;
+ 
   }
   
   button {
@@ -74,5 +76,7 @@ body {
   button:focus {
     outline: none;
     box-shadow: 0px 0px 10px #333333;
+    
   }
+
   
