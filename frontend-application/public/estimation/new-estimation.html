@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Estimate Price</title>
+	<title>Estimation Tool</title>
 	<script src="estimation/new-estimation.js"></script>
 	<link rel="stylesheet" href="estimation/style/new-est-style.css">
 </head>
@@ -9,24 +9,23 @@
 	<div class="header">
 		<img class = "logo" src="img/logo.png" width="300px" height="87px">
 		<a class="link"  href="myEstimations">My Estimations </a></div>
-		
+	<h3>Estimation Tool</h3>	
 		<div>
 	<form id="estimate-form">
-		<label for="square-meters">Square meters:</label>
-		<input type="number" id="square_meters" name="square_meters"><br><br>
+		
+		<input type="number" id="square_meters" name="square_meters" placeholder="Square meters"><br><br>
 
-		<label for="num-bedrooms">Number of bedrooms:</label>
-		<input type="number" id="num_bedrooms" name="num_bedrooms"><br><br>
+		<input type="number" id="num_bedrooms" name="num_bedrooms" placeholder="Number of bedrooms"><br><br>
 
-		<label for="city">City:</label>
-		<select id="city" name="city">
+		<select id="city" name="city" >
+			<option value="" disabled selected>City</option>
 			<option value="Milano">Milano</option>
 			<option value="Torino">Torino</option>
 			<option value="Napoli">Napoli</option>
 		</select><br><br>
 
-		<label for="budget">Budget:</label>
 		<select id="budget" name="budget">
+			<option value="" disabled selected>Budget</option>
 			<option value="low">Low</option>
 			<option value="medium">Medium</option>
 			<option value="high">High</option>
