@@ -9,7 +9,7 @@ app.use(express.static('public'));
 app.use(morgan('dev'));
 
 app.get("/", (req, res) => {
-	res.sendFile(path.join(__dirname, "public", "account", "account.html"));
+	res.sendFile(path.join(__dirname, "public", "account", "landing-page.html"));
 })
 
 app.get("/newEstimation", (req, res) => {
