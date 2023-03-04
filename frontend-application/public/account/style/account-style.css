@@ -1,3 +1,7 @@
+*:not(input) {
+  caret-color: transparent;
+  cursor:default;
+}
 
 body {
   background-image: url("../../img/archetype.jpg");
@@ -46,6 +50,7 @@ h3 {
   width: 100%;
   box-sizing: border-box;
   background:inherit;
+  caret-color:auto;
 }
 
 .login-div button,

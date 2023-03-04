@@ -1,8 +1,13 @@
+*:not(input) {
+  caret-color: transparent;
+}
+
 body {
     background-image: url("../../img/archetype.jpg");
     background-size: cover;
     font-family: sans-serif;
     color: #333333;
+
   }
 .header {
     display: flex;
@@ -24,6 +29,7 @@ body {
     padding: 30px;
     margin: 50px auto;
     max-width: 400px;
+    caret-color:grey
   }
   
   h3 {

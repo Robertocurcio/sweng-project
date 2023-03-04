@@ -3,6 +3,8 @@ body {
     background-size: cover;
     font-family: sans-serif;
     color: #333333;
+    caret-color:transparent;
+    cursor:default;
   }
 
   .header {
