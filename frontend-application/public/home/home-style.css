@@ -1,0 +1,50 @@
+* {
+    caret-color: transparent;
+    cursor: default;
+  }
+  
+  body {
+    background-image: url("../img/archetype.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+  }
+  
+  .logo {
+    width: 300px;
+    height: 87px;
+  }
+  h3 {
+    color: #333333;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align:center;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  ul li {
+    margin: 0px 30px;
+    list-style-type: none;
+  }
+  
+  ul li a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #333333;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  ul li a:hover {
+    background-color: #333333;
+    color: #FFFFFF;
+  }
+  

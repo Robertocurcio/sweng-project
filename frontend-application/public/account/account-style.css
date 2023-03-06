@@ -5,7 +5,7 @@
 
 body {
   background-image: url("../../img/archetype.jpg");
-  background-size: 2000px;
+  background-size: cover;
 }
 
 .container {

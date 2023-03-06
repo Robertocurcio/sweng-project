@@ -87,6 +87,7 @@ document.addEventListener("DOMContentLoaded", function() {
           if ( response.status === 200){
           //if the response is ok
           alert("User logged")};
+          window.location.replace("home");
         })
         .catch((error) => {
           console.error("Error:", error);
