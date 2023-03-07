@@ -13,13 +13,12 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 
   }
   .link {
     text-decoration: none;
     color:inherit;
-    margin-top:auto;
   }
 
   form {
@@ -38,7 +37,13 @@ body {
     margin-bottom: 20px;
     text-align:center;
   }
-  
+  h4{
+    color: #333333;
+    font-size:16px;
+    font-weight: 400;
+    margin-right:50px;
+    cursor:default;
+  }
   label {
     display: block;
     font-size: 16px;

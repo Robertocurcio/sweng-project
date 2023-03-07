@@ -11,19 +11,25 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 
   }
   .link {
     text-decoration: none;
     color:inherit;
-    margin-top:auto;
+  }
+  h4{
+    color: #333333;
+    font-size:16px;
+    font-weight: 400;
+    margin-right:50px;
+    cursor:default;
   }
   #past-est-container{
     display: flex;
     flex-wrap: wrap;
   }
-  #past-est {
+  .past-est {
     display: flex;
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.8);
