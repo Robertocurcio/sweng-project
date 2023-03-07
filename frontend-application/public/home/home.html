@@ -11,9 +11,15 @@
     </header>
 
     <h3>Homepage</h3>
+    <h4>Welcome <span id="userId"></span></h4>
       <ul>
         <li><a href="../newestimation">Estimation Tool</a></li>
         <li><a href="../myEstimations">My Estimations</a></li>
       </ul>
   </body>
+  <script>
+    var userId = localStorage.getItem('userId');
+    document.getElementById('userId').textContent = userId;
+    console.log(userId)
+  </script>
 </html>

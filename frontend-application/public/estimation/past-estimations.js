@@ -1,11 +1,11 @@
-document.addEventListener("DOMContentLoaded", function GetPastEstimations() {
+function GetPastEstimations() {
 // Make a fetch request to retrieve the database.json file
 fetch('http://localhost:3001/estimations')
 
   .then(response => response.json()) // Once the response is received, convert it to JSON format
   .then(data => { // Once the data is received, process it
-
-    const userAData = getUserData('a', data); // Get the data for user "a" using the getUserData function
+    const userId = localStorage.getItem('userId')
+    const userAData = getUserData(userId, data); // Get the data for authenticated user using the getUserData function
     const container = document.getElementById('past-est-container'); // Get the container element where the estimation divs will be added
 
     // Loop through each estimation data and create a div element for it
@@ -25,7 +25,6 @@ function getUserData(userId, data) {
 // This function takes an estimation datum object as input, and returns a div element containing the estimation data
 function createEstimationDiv(datum) {
   const div = document.createElement('div');
-  
   const h2 = document.createElement('h2');
   const squareMetersP = document.createElement('p');
   const numBedroomsP = document.createElement('p');
@@ -51,4 +50,7 @@ function createEstimationDiv(datum) {
 
   return div;
 }
-})
+}
+
+document.addEventListener("DOMContentLoaded", GetPastEstimations())
+

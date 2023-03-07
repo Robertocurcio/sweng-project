@@ -66,9 +66,9 @@ app.use(express.json());
 
 app.post('/estimation', (req, res) => {
 	// extract the values interested
-	const { square_meters, num_bedrooms, city, budget } = req.body;
+	const { square_meters, num_bedrooms, city, budget, user_id } = req.body;
 	
-	const estimated_price = estimate.estimate_price(square_meters, city, num_bedrooms, budget);
+	const estimated_price = estimate.estimate_price(square_meters, city, num_bedrooms, budget, user_id);
   	
 	// Send the response
 	res.setHeader('Access-Control-Allow-Origin', '*');

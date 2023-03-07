@@ -1,62 +1,26 @@
 [
     {
-        "user": "a",
+        "user": "prova@prova.it",
         "est_id": 1,
-        "square_meters": 150,
-        "city": "Milano",
-        "num_bedrooms": 3,
-        "budget": "low",
-        "estimation_range": [
-            60720,
-            67920
-        ]
-    },
-    {
-        "user": "b",
-        "est_id": 1,
-        "square_meters": 120,
-        "city": "Milano",
-        "num_bedrooms": 5,
-        "budget": "low",
-        "estimation_range": [
-            58291,
-            65203
-        ]
-    },
-    {
-        "user": "b",
-        "est_id": 2,
-        "square_meters": 888,
-        "city": "Milano",
-        "num_bedrooms": 8,
-        "budget": "low",
-        "estimation_range": [
-            431354,
-            482503
-        ]
-    },
-    {
-        "user": "a",
-        "est_id": 2,
-        "square_meters": 666,
+        "square_meters": "3",
         "city": "Torino",
-        "num_bedrooms": 6,
-        "budget": "high",
+        "num_bedrooms": "3",
+        "budget": "low",
         "estimation_range": [
-            427731,
-            485274
+            1070,
+            1214
         ]
     },
     {
-        "user": "a",
-        "est_id": 3,
-        "square_meters": "444",
-        "city": "Napoli",
+        "user": "prova@prova.it",
+        "est_id": 2,
+        "square_meters": "4",
+        "city": "Milano",
         "num_bedrooms": "4",
-        "budget": "low",
+        "budget": "medium",
         "estimation_range": [
-            174758,
-            200332
+            2428,
+            2716
         ]
     }
 ]

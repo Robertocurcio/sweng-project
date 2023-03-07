@@ -2,12 +2,13 @@ document.addEventListener("DOMContentLoaded", function SendEstimationInputs() { 
 
   const form = document.getElementById("estimate-form");
   const url = "http://localhost:3001/estimation";
-
+  
   //on submit of the form, the function is async
   form.addEventListener("submit", async (event) => {
     event.preventDefault(); //prevents the default form submission behavior
 
     const formData = new FormData(form);
+    const utente = localStorage.getItem('userId');
 
     //check for empty values, and displays an alert
     if (!formData.get("square_meters") || !formData.get("num_bedrooms") || !formData.get("city") || !formData.get("budget")) {
@@ -26,7 +27,8 @@ document.addEventListener("DOMContentLoaded", function SendEstimationInputs() { 
           square_meters: formData.get("square_meters"),
           num_bedrooms: formData.get("num_bedrooms"),
           city: formData.get("city"),
-          budget: formData.get("budget")
+          budget: formData.get("budget"),
+          user_id: utente
         })
       });
 

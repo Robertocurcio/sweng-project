@@ -1,14 +1,4 @@
 [
-    
-    {
-        "email": "andrea.boscolo@studio.unibo.it",
-        "password": [
-            "673f924c61e83124844d2d8e5a28f4a5acc791de9d8de99adaf42d682e6364a7",
-            "d4e6c094"
-        ],
-        "name": "andrea",
-        "surname": "boscolo"
-    },
     {
         "email": "roberto.curcio2@studio.unibo.it",
         "password": [
@@ -17,5 +7,14 @@
         ],
         "name": "Roberto",
         "surname": "Curcio"
+    },
+    {
+        "email": "prova@prova.it",
+        "password": [
+            "ed5e026f9765408f1c5e02871a1b9cd62c16ce1cb135a2b790ce20d8c1ce660e",
+            "198b55e0"
+        ],
+        "name": "ANDREA",
+        "surname": "BOSCOLO"
     }
 ]

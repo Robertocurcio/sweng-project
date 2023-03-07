@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }
   
   
-      // POST request to register the user
+      // POST request to login the user
       fetch(url, {
         method: "POST", 
         headers: { //what kind of data we are sending
@@ -79,15 +79,18 @@ document.addEventListener("DOMContentLoaded", function() {
       })
         .then((response) => {
           if (response.status === 401){
-            alert("The password inserted doesn't match")
+            alert("The password inserted doesn't match");
           }
           if (response.status === 404){
-            alert("User not found")
+            alert("User not found");
           }
           if ( response.status === 200){
           //if the response is ok
-          alert("User logged")};
-          window.location.replace("home");
+            alert("User logged");
+            localStorage.setItem('userId', formData.get("email"))
+            window.location.replace("home");
+          };
+          
         })
         .catch((error) => {
           console.error("Error:", error);
