@@ -31,6 +31,7 @@
     font-weight: 400;
     margin-right: 50px;
   }
+  
   ul {
     display: flex;
     justify-content: center;
@@ -52,6 +53,7 @@
     border-radius: 10px;
     border: 1px solid #333333;
     transition: all 0.2s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.7);
   }
   
   ul li a:hover {
