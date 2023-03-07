@@ -79,5 +79,5 @@ app.post('/estimation', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}`);
+  console.log(`Estimation service listening on port ${PORT}`);
 });
