@@ -1,4 +1,3 @@
-
 function estimate_price(square_meters, city, num_bedrooms, budget, user_id) {
     //prezzo al m^2 per ristrutturazioni
     
@@ -40,7 +39,7 @@ function estimate_price(square_meters, city, num_bedrooms, budget, user_id) {
 
     const fs = require('fs');
     const path = require('path');
-
+    
     function get_est_id(user_id) {
         const contents = fs.readFileSync(path.resolve(__dirname, 'database.json'), 'utf8');
         const past_ests = JSON.parse(contents);
@@ -55,19 +54,19 @@ function estimate_price(square_meters, city, num_bedrooms, budget, user_id) {
             return Math.max(...filtered_data.map(d => d.est_id || 0)) + 1;
         }
     }
-
-    const data = {
-        "user": user_id,
-        "est_id": get_est_id(user_id),
-        "square_meters": square_meters,
-        "city": city,
-        "num_bedrooms": num_bedrooms,
-        "budget": budget,
-        "estimation_range": price_range
-    };
-
     // Wait for 5 seconds
     setTimeout(() => {
+     
+        const data = {
+            "user": user_id,
+            "est_id": get_est_id(user_id),
+            "square_meters": square_meters,
+            "city": city,
+            "num_bedrooms": num_bedrooms,
+            "budget": budget,
+            "estimation_range": price_range
+        };
+
         // Read the contents of database.json
         let contents;
         try {
