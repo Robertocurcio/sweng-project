@@ -2,8 +2,6 @@
 function estimate_price(square_meters, city, num_bedrooms, budget, user_id) {
     //prezzo al m^2 per ristrutturazioni
     
-    console.log(user_id);
-    
     prices = {
         "Milano":  [506, 566],
         "Torino":  [446, 506],

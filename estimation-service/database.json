@@ -22,5 +22,17 @@
             2428,
             2716
         ]
+    },
+    {
+        "user": "roberto.curcio2@studio.unibo.it",
+        "est_id": 1,
+        "square_meters": "120",
+        "city": "Torino",
+        "num_bedrooms": "3",
+        "budget": "high",
+        "estimation_range": [
+            64224,
+            72864
+        ]
     }
 ]
