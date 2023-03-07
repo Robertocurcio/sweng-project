@@ -30,5 +30,5 @@ app.use('/home', express.static(path.join(__dirname, 'public', 'home')));
 
 // Start the server
 app.listen(3000, () => {
-  console.log('Server started on port 3000');
+  console.log('Frontend application started on port 3000');
 });
