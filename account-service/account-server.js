@@ -56,6 +56,6 @@ app.post('/user', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Starting server on port ${PORT}`);
+  console.log(`Account Management service listening on port ${PORT}`);
 ;
 });
