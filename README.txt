@@ -1,3 +1,3 @@
-Questa è una prova
-Questa è una mia prova
-Questa è un'altra prova ancora
+Cliccando su run-all-server.bat verranno lanciati tutti i servizi su finestre diverse del cmd.
+
+Per accedere all'applicazione andare su http://localhost:3000
