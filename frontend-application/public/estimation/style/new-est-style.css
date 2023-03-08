@@ -36,7 +36,9 @@ body {
     font-weight: 400;
     margin-bottom: 20px;
     text-align:center;
+    cursor:default;
   }
+
   h4{
     color: #333333;
     font-size:16px;
@@ -44,13 +46,7 @@ body {
     margin-right:50px;
     cursor:default;
   }
-  label {
-    display: block;
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 5px;
-  }
-  
+
   input,
   select {
     border: none;
@@ -70,14 +66,18 @@ body {
     border: none;
     border-radius: 20px;
     color: #FFFFFF;
-    cursor: pointer;
     font-size: 16px;
     font-weight: 600;
     padding: 12px;
     width: 100%;
     transition: all 0.2s ease-in-out;
+    cursor:pointer;
   }
-  
+
+  select{
+    cursor:pointer;
+  }
+
   button:hover {
     background-color: #333333;
   }
@@ -89,5 +89,14 @@ body {
     box-shadow: 0px 0px 10px #333333;
     
   }
+
+  .link:hover,
+  .logo:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  
 
   

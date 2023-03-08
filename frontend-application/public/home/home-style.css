@@ -9,10 +9,6 @@
     font-family: sans-serif;
   }
   
-  .logo {
-    width: 300px;
-    height: 87px;
-  }
   .header {
     display: flex;
     flex-direction: row;
@@ -25,6 +21,7 @@
     font-size: 24px;
     font-weight: 400;
   }
+
   h4{
     color: #333333;
     font-size:16px;
@@ -54,10 +51,17 @@
     border: 1px solid #333333;
     transition: all 0.2s ease-in-out;
     background-color: rgba(255, 255, 255, 0.7);
+    cursor:pointer;
   }
   
   ul li a:hover {
     background-color: #333333;
     color: #FFFFFF;
+  }
+
+  .logo:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
   }
   

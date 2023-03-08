@@ -14,21 +14,24 @@ body {
     align-items: center;
 
   }
+
   .link {
     text-decoration: none;
     color:inherit;
   }
+
   h4{
     color: #333333;
     font-size:16px;
     font-weight: 400;
     margin-right:50px;
-    cursor:default;
   }
+
   #past-est-container{
     display: flex;
     flex-wrap: wrap;
   }
+
   .past-est {
     display: flex;
     flex-direction: column;
@@ -40,13 +43,20 @@ body {
     margin: 50px auto;
     max-width: 400px;
   }
+
   h3 {
     font-size: 24px;
     font-weight: 400;
     margin-bottom: 20px;
     text-align:center;
   }
-  
+
+  .link:hover,
+  .logo:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
 
 
   
